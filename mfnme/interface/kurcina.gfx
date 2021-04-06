@@ -1,0 +1,26 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_decision_cat_generic_kartaga"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_kartaga.dds"
+		}
+	spriteType = {
+		name = "GFX_decision_cat_generic_bugarska"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_bugarska.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_generic_albania"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_albania.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_generic_croatia"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_croatia.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_generic_asirija"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_asirija.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_generic_habspanjolska"
+		texturefile = "gfx/interface/decisions/decision_cat_generic_habspanjolska.dds"
+	}
+}

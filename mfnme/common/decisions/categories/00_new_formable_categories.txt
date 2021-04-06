@@ -1,0 +1,74 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+form_bulgaria_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_bugarska
+
+	allowed = {
+		
+	}
+}
+
+form_albania_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_albania
+
+	allowed = {
+
+	}
+}
+
+form_kartaga_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_kartaga
+
+	allowed = {
+		
+	}
+}
+
+form_hrvatska_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_croatia
+
+	allowed = {
+		
+	}
+}
+
+form_asirija_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_asirija
+
+	allowed = {
+		
+	}
+}
+
+form_habspanjolska_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_generic_asirija
+
+	allowed = {
+		
+	}
+}

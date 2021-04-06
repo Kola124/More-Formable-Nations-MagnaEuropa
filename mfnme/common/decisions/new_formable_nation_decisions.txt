@@ -1,0 +1,589 @@
+form_bulgaria_category = {
+
+	form_bulgaria = {
+
+		allowed = {
+			original_tag = BUL
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_bulgaria_required_states_tt
+				controls_state = 360
+				controls_state = 147
+				controls_state = 148
+				controls_state = 149
+				controls_state = 154
+				controls_state = 415
+				controls_state = 153
+				controls_state = 362
+				controls_state = 479
+				controls_state = 155
+				controls_state = 480
+				controls_state = 156
+				controls_state = 152
+				controls_state = 364
+				controls_state = 363
+				controls_state = 477
+				controls_state = 159
+				controls_state = 476
+				controls_state = 365
+				controls_state = 110
+				controls_state = 111
+				controls_state = 444
+				controls_state = 101
+				controls_state = 105
+				controls_state = 502
+				controls_state = 483
+				controls_state = 501
+				controls_state = 104
+				controls_state = 443
+				controls_state = 478
+				controls_state = 472
+				controls_state = 239
+				controls_state = 102
+				controls_state = 238
+				controls_state = 475
+				controls_state = 474
+				controls_state = 398
+				controls_state = 473
+				controls_state = 236
+				controls_state = 381
+				controls_state = 133
+			}
+		}
+
+		visible = {
+			original_tag = BUL
+			NOT = { has_global_flag = form_bulgaria_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = BUL_VELIK
+			custom_effect_tooltip = form_country_bulgaria_coring_states_tt
+			hidden_effect = {
+				129 = { add_core_of = ROOT }
+				360 = { add_core_of = ROOT }
+				147 = { add_core_of = ROOT }
+				148 = { add_core_of = ROOT }
+				149 = { add_core_of = ROOT }
+				154 = { add_core_of = ROOT }
+				415 = { add_core_of = ROOT }
+				153 = { add_core_of = ROOT }
+				362 = { add_core_of = ROOT }
+				479 = { add_core_of = ROOT }
+				155 = { add_core_of = ROOT }
+				480 = { add_core_of = ROOT }
+				156 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				364 = { add_core_of = ROOT }
+				363 = { add_core_of = ROOT }
+				477 = { add_core_of = ROOT }
+				159 = { add_core_of = ROOT }
+				476 = { add_core_of = ROOT }
+				365 = { add_core_of = ROOT }
+				110 = { add_core_of = ROOT }
+				111 = { add_core_of = ROOT }
+				444 = { add_core_of = ROOT }
+				101 = { add_core_of = ROOT }
+				105 = { add_core_of = ROOT }
+				502 = { add_core_of = ROOT }
+				483 = { add_core_of = ROOT }
+				501 = { add_core_of = ROOT }
+				104 = { add_core_of = ROOT }
+				443 = { add_core_of = ROOT }
+				478 = { add_core_of = ROOT }
+				472 = { add_core_of = ROOT }
+				239 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				238 = { add_core_of = ROOT }
+				475 = { add_core_of = ROOT }
+				474 = { add_core_of = ROOT }
+				442 = { add_core_of = ROOT }
+				398 = { add_core_of = ROOT }
+				473 = { add_core_of = ROOT }
+				236 = { add_core_of = ROOT }
+				381 = { add_core_of = ROOT }
+				133 = { add_core_of = ROOT }
+				set_global_flag = form_bulgaria_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_kartaga_category = {
+
+	form_kartaga = {
+
+		allowed = {
+			original_tag = TUN
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_kartaga_required_states_tt
+				controls_state = 136
+				controls_state = 124
+				controls_state = 125
+				controls_state = 355
+				controls_state = 356
+				controls_state = 137
+			}
+		}
+
+		visible = {
+			original_tag = TUN
+			NOT = { has_global_flag = form_kartaga_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = KART
+			hidden_effect = { 124 = { set_state_name = "Carthage" } }
+			custom_effect_tooltip = form_country_kartaga_coring_states_tt
+			hidden_effect = {
+				set_province_name = { id = 10295 name = "Carthage" }
+				136 = { add_core_of = ROOT }
+				124 = { add_core_of = ROOT }
+				125 = { add_core_of = ROOT }
+				355 = { add_core_of = ROOT }
+				356 = { add_core_of = ROOT }
+				137 = { add_core_of = ROOT }
+				set_global_flag = form_kartaga_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	ekspanzijaiberija = {
+		allowed = {
+			original_tag = TUN
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				controls_state = 307
+				controls_state = 168
+				controls_state = 169
+				controls_state = 366
+				controls_state = 228
+				controls_state = 229
+				controls_state = 370
+			}
+		}
+
+		visible = {
+			original_tag = TUN
+			has_global_flag = form_kartaga
+			NOT = { has_global_flag = ekspanzijaiberija_flag }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				307 = { add_core_of = ROOT }
+				168 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				366 = { add_core_of = ROOT }
+				228 = { add_core_of = ROOT }
+				229 = { add_core_of = ROOT }
+				370 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				77 = { add_core_of = ROOT }
+				set_global_flag = ekspanzijaiberija_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	cetvrtipunskirat = {
+		allowed = {
+			original_tag = TUN
+		}
+		available = {
+			is_subject = no
+		}
+		visible = {
+			original_tag = TUN
+			has_global_flag = form_kartaga_flag
+			NOT = { has_global_flag = punskirat_flag }
+		}
+		complete_effect = {
+			create_wargoal = { 
+				type = annex_everything
+				target = ITA
+			}
+			hidden_effect = {
+				set_global_flag = punskirat_flag
+			}
+		}
+	}
+	italijajezgre = {
+		allowed = {
+			original_tag = TUN
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				controls_state = 29
+				controls_state = 28
+			}
+		}
+
+		visible = {
+			original_tag = TUN
+			has_global_flag = punskirat_flag
+			NOT = { has_global_flag = rimjezgre_flag }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+				29 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				2 = { add_core_of = ROOT }
+				374 = { add_core_of = ROOT }
+				set_global_flag = rimjezgre_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_albania_category = {
+
+	form_albania = {
+
+		allowed = {
+			original_tag = ALB
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_norway_required_states_tt
+				controls_state = 156
+				controls_state = 155
+				controls_state = 480
+				controls_state = 479
+				controls_state = 135
+			}
+		}
+
+		visible = {
+			original_tag = ALB
+			NOT = { has_global_flag = form_albania_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ALB_VELIK
+			custom_effect_tooltip = form_country_norway_coring_states_tt
+			hidden_effect = {
+				129 = { add_core_of = ROOT }
+				360 = { add_core_of = ROOT }
+				147 = { add_core_of = ROOT }
+				479 = { add_core_of = ROOT }
+				135 = { add_core_of = ROOT }
+				set_global_flag = form_albania_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_hrvatska_category = {
+
+	form_hrvatska = {
+
+		allowed = {
+			original_tag = CRO
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_croatia_required_states_tt
+				controls_state = 423
+				controls_state = 100
+				controls_state = 158
+				controls_state = 416
+				controls_state = 157
+				controls_state = 417
+				controls_state = 418
+				controls_state = 364
+				controls_state = 419
+			}
+		}
+
+		visible = {
+			original_tag = CRO
+			NOT = { has_global_flag = form_hrvatska_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = HRV_VELIK
+			custom_effect_tooltip = form_country_croatia_coring_states_tt
+			hidden_effect = {
+				423 = { add_core_of = ROOT }
+				100 = { add_core_of = ROOT }
+				158 = { add_core_of = ROOT }
+				416 = { add_core_of = ROOT }
+				157 = { add_core_of = ROOT }
+				417 = { add_core_of = ROOT }
+				418 = { add_core_of = ROOT }
+				364 = { add_core_of = ROOT }
+				383 = { add_core_of = ROOT }
+				419 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				386 = { add_core_of = ROOT }
+				411 = { add_core_of = ROOT }
+				420 = { add_core_of = ROOT }
+				set_global_flag = form_hrvatska_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_asirija_category = {
+
+	form_asirija = {
+
+		allowed = {
+			OR = {
+				original_tag = IRQ
+				original_tag = SYR
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_asirija_required_states_tt
+				controls_state = 143
+				controls_state = 145
+				controls_state = 144
+				controls_state = 344
+				controls_state = 345
+				controls_state = 343
+				controls_state = 20
+				controls_state = 453
+				controls_state = 460
+				controls_state = 139
+				controls_state = 128
+				controls_state = 123
+				controls_state = 272
+				controls_state = 273
+				controls_state = 274
+				controls_state = 146
+				controls_state = 459
+				controls_state = 256
+				controls_state = 260
+				controls_state = 259
+				controls_state = 348
+				controls_state = 349
+				controls_state = 167
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = IRQ
+				original_tag = SYR
+			}
+			NOT = { has_global_flag = form_asirija_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = ASIRIJA
+			custom_effect_tooltip = form_country_asirija_coring_states_tt
+			hidden_effect = {
+				143 = { add_core_of = ROOT }
+				145 = { add_core_of = ROOT }
+				144 = { add_core_of = ROOT }
+				344 = { add_core_of = ROOT }
+				345 = { add_core_of = ROOT }
+				343 = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
+				453 = { add_core_of = ROOT }
+				460 = { add_core_of = ROOT }
+				139 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+				123 = { add_core_of = ROOT }
+				272 = { add_core_of = ROOT }
+				273 = { add_core_of = ROOT }
+				274 = { add_core_of = ROOT }
+				146 = { add_core_of = ROOT }
+				459 = { add_core_of = ROOT }
+				256 = { add_core_of = ROOT }
+				260 = { add_core_of = ROOT }
+				259 = { add_core_of = ROOT }
+				348 = { add_core_of = ROOT }
+				349 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+				set_global_flag = form_asirija_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_habspanjolska_category = {
+
+	iberijaportugal = {
+
+		allowed = {
+			OR = {
+				original_tag = SPR
+				original_tag = D01
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_iberijaportugal_required_states_tt
+				controls_state = 163
+				controls_state = 372
+				controls_state = 165
+				controls_state = 164
+				controls_state = 166
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SPR
+				original_tag = D01
+			}
+			NOT = { has_global_flag = form_iberijaportugal_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = HABSPN
+			custom_effect_tooltip = form_country_iberijaportugal_coring_states_tt
+			hidden_effect = {
+				162 = { add_core_of = ROOT }
+				163 = { add_core_of = ROOT }
+				372 = { add_core_of = ROOT }
+				165 = { add_core_of = ROOT }
+				164 = { add_core_of = ROOT }
+				166 = { add_core_of = ROOT }
+				set_global_flag = form_iberijaportugal_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	italijahabsburg = {
+
+		allowed = {
+			OR = {
+				original_tag = SPR
+				original_tag = D01
+			}
+		}
+
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = form_country_italijahabsburg_required_states_tt
+				controls_state = 28
+				controls_state = 29
+				controls_state = 30
+				controls_state = 461
+				controls_state = 449
+				controls_state = 503
+				controls_state = 31
+				controls_state = 32
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = SPR
+				original_tag = D01
+			}
+			NOT = { has_global_flag = form_italijahabsburg_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = HABSPN
+			custom_effect_tooltip = form_country_italijahabsburg_coring_states_tt
+			hidden_effect = {
+				28 = { add_core_of = ROOT }
+				29 = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
+				461 = { add_core_of = ROOT }
+				449 = { add_core_of = ROOT }
+				503 = { add_core_of = ROOT }
+				31 = { add_core_of = ROOT }
+				32 = { add_core_of = ROOT }
+				set_global_flag = form_italijahabsburg_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
